@@ -1,0 +1,21 @@
+{
+	"recommendations": [
+		"aaron-bond.better-comments",
+		"bradlc.vscode-tailwindcss",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"dbaeumer.vscode-eslint",
+		"dsznajder.es7-react-js-snippets",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-rename-tag",
+		"humao.rest-client",
+		"mikestead.dotenv",
+		"rangav.vscode-thunder-client",
+		"ritwickdey.liveserver",
+		"sburg.vscode-javascript-booster",
+		"styled-components.vscode-styled-components",
+		"stylelint.vscode-stylelint",
+		"vincaslt.highlight-matching-tag",
+		"wix.vscode-import-cost"
+	]
+}

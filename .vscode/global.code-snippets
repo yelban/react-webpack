@@ -1,0 +1,42 @@
+{
+	"React useState": {
+		"prefix": "react#useState",
+		"body": ["const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2)"],
+		"description": "React useState"
+	},
+	"React useEffect": {
+		"prefix": "react#useEffect",
+		"body": ["useEffect(() => {", "  $1", "}, [$2]);"],
+		"description": "React useEffect"
+	},
+	"React useRef": {
+		"prefix": "react#useRef",
+		"body": ["const ${1:ref} = useRef(${2:null});"],
+		"description": "React useRef"
+	},
+	"React Component": {
+		"prefix": "react#component",
+		"body": ["export const ${1/(.*)/${1:/capitalize}/} = (props) => {", "  return (", "    $2", "  );", "};"],
+		"description": "Create a functional React component"
+	},
+	"Log output to the console one arg": {
+		"prefix": "slog",
+		"body": ["console.log('$1');"],
+		"description": "Log output to the console one arg"
+	},
+	"Log output to the console two arg": {
+		"prefix": "tlog",
+		"body": ["console.log('$1', $1);"],
+		"description": "Log output to the console two arg"
+	},
+	"Arrow function": {
+		"prefix": "js#arrow-function",
+		"body": ["const $1 = (${2:params}) => {", "  $3", "};"],
+		"description": "Create an arrow function"
+	},
+	"Named function": {
+		"prefix": "js#function",
+		"body": ["function $1(${2:params}) {", "  $3", "}"],
+		"description": "Create a named function"
+	}
+}
